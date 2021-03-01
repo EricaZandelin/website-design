@@ -33,6 +33,7 @@
   .example {
     width: 653px;
     height: 63px;
+    letter-spacing: 2.8px;
   }
   
   /* Style the search field */
@@ -91,3 +92,42 @@
   */
 
   /*NAVBAR STARTS*/
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    height: 20px;
+}
+
+.navbar__container {
+  display: flex;
+  align-items: center;
+  padding: 20px 10%;
+  /*height: 50px;*/
+  background-color: #5474FD;
+}
+
+.navbar {}
+    /*När jag kör "&__list, &__li, &__link så får ja glad gubbe i prepos så det funkar..bara att på hemsidan så det tillbaka på ruta 1 och ej funkar?*/
+.nav__list {
+       
+}
+
+.nav__li {
+        list-style: none;
+        display: inline-block;
+}
+    
+.nav__link  {
+  
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s ease 0s;
+  padding: 0px 20px;
+
+}
+
+.nav__link:hover {
+            color:black;
+}
