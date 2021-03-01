@@ -20,6 +20,21 @@
     text-transform: uppercase;
   }
 
+ .scroll {
+   display: flex;
+   flex-direction: column;
+   margin-top:50px;
+  font-family: 'Josefin Sans', sans-serif; 
+  font-size: 14px;
+ }
+
+ .scroll:hover {
+   color: black;
+   cursor: pointer;
+   transition: all 0.3s ease 0s;
+
+ }
+
   h1 {
     letter-spacing: 4.8px;
     font-size: 48px;
@@ -49,6 +64,7 @@
     background: #f1f1f1;
     text-align: center;
     font-size: 14px;
+    letter-spacing: 2.8px;
   }
 
   
@@ -57,7 +73,7 @@
   form.example button {
     float: left;
     width: 20%;
-    height: 80%; /*Minska lite och sen sätt in denna i input boxen om du hinner*/ 
+    height: 80%; /*Hur får jag in knappen i input boxen?*/ 
     padding: 10px;
     background: #2196F3;
     color: white;
@@ -65,10 +81,18 @@
     border: 1px solid grey;
     border-left: none; /* Prevent double borders */
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    align-items: center;
+    border-radius:inherit;
+    
   }
   
   form.example button:hover {
     background: #0b7dda;
+    color:black;
+    transition: all 0.3s ease 0s;
   }
   
   /* Clear floats */

@@ -64,6 +64,7 @@ body, html {
   font-family: "Josefin Sans", sans-serif;
   color: white;
   font-size: 16px;
+  line-height: 26px;
 }
 
 .btn__mid {
@@ -220,30 +221,31 @@ body, html {
   transform: translate(-50%, -50%);
 }
 
-.footer {
-  position: relative;
-  margin: 0;
-}
-
-.all__footer {
-  background-color: #000000;
-  color: white;
+.box__container6 {
   max-width: 1773px;
   width: 100%;
-  height: 271px;
+  height: 731px;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+.box__card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #232323;
+  opacity: 0.9;
+  width: 668px;
+  height: 287px;
+  padding: 40px;
+  position: relative;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
 }
 
-.fa-facebook, .fa-twitter, .fa-linkedin, .fa-pinterest, .fa-youtube {
-  color: white;
+.fa-quote-left {
+  color: #5474FD;
+  font-size: 40px;
 }
 
 .header__image {
@@ -263,6 +265,20 @@ body, html {
   text-align: center;
   color: white;
   text-transform: uppercase;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+}
+
+.scroll:hover {
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
 h1 {
@@ -292,6 +308,7 @@ form.example input[type=text] {
   background: #f1f1f1;
   text-align: center;
   font-size: 14px;
+  letter-spacing: 2.8px;
 }
 
 /* Style the submit button */
@@ -299,7 +316,7 @@ form.example button {
   float: left;
   width: 20%;
   height: 80%;
-  /*Minska lite och sen sätt in denna i input boxen om du hinner*/
+  /*Hur får jag in knappen i input boxen?*/
   padding: 10px;
   background: #2196F3;
   color: white;
@@ -308,10 +325,17 @@ form.example button {
   border-left: none;
   /* Prevent double borders */
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: end;
+  align-items: center;
+  border-radius: inherit;
 }
 
 form.example button:hover {
   background: #0b7dda;
+  color: black;
+  transition: all 0.3s ease 0s;
 }
 
 /* Clear floats */
@@ -365,4 +389,57 @@ form.example::after {
 
 .nav__link:hover {
   color: black;
+}
+
+.footer {
+  position: relative;
+  margin: 0;
+}
+
+.all__footer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  max-width: 1773px;
+  width: 100%;
+  height: 271px;
+}
+
+.footer__box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__box2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.text__footer {
+  letter-spacing: 1.6px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-pinterest, .fa-youtube {
+  color: white;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-pinterest:hover, .fa-youtube:hover {
+  color: #5474FD;
+  transition: all 0.3s ease 0s;
 }
