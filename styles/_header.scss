@@ -25,6 +25,8 @@
     font-size: 48px;
   }
 
+
+
  .safe__travel {
     letter-spacing: 6.82px;
     font-size: 22px;
@@ -107,11 +109,7 @@
   background-color: #5474FD;
 }
 
-.navbar {}
-    /*När jag kör "&__list, &__li, &__link så får ja glad gubbe i prepos så det funkar..bara att på hemsidan så det tillbaka på ruta 1 och ej funkar?*/
-.nav__list {
-       
-}
+
 
 .nav__li {
         list-style: none;
@@ -119,13 +117,11 @@
 }
     
 .nav__link  {
-  
   color: white;
   text-decoration: none;
   font-size: 20px;
   transition: all 0.3s ease 0s;
   padding: 0px 20px;
-
 }
 
 .nav__link:hover {
