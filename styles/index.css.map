@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAAA;2CAC2C",
+    "sources": [
+        "index.scss",
+        "_main.scss",
+        "_header.scss",
+        "_footer.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}
