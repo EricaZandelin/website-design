@@ -21,8 +21,7 @@
     font-weight: 400;
   }
 
-  body {
-    max-height: 4271px;
+  body, html {
     height: 100%;
     max-width: 1773px;
     width: 100%;
@@ -158,7 +157,7 @@
 
   .mid2__image {
     background: url(../images/mid2.png) no-repeat center;
-    position: absolute;
+    position: relative;
     overflow: hidden;
     height: 700px;
     max-width: 1773px;
@@ -203,7 +202,7 @@
 
   /*midpart 3 starts*/
 
-/*
+
   .last__image {
     background: url(../images/bottom.png) no-repeat center;
     background-size: auto;
@@ -213,4 +212,46 @@
     max-width: 1773px;
     width: 100%;
     background-size: cover;
-  }*/
+  }
+
+  .box__card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #232323;
+    opacity: 0.9;
+    width: 543px;
+    height: 374px;
+    padding: 20px;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+
+  .footer {
+    position: relative;
+    margin:0;
+  }
+  .all__footer {
+    background-color:#000000 ;
+    color:white;
+    max-width: 1773px;
+    width: 100%;
+    height: 271px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa-facebook, .fa-twitter, .fa-linkedin, .fa-pinterest, .fa-youtube {
+    color: white;
+  }
+
